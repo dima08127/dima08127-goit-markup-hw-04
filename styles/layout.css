@@ -38,9 +38,6 @@ body {
 
 .nav-list {
   display: flex;
-
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .nav-list__item:not(:last-child) {
@@ -48,6 +45,7 @@ body {
 }
 
 .nav-list__link {
+  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--c-primary);
